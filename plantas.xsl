@@ -51,11 +51,12 @@
             
             <!-- Imagen de luminosidad si es Alta -->
             <xsl:if test="luminosidad='Alta'">
-                <img src="/img/Alta.png" class="alta-icono"/>
+                <img src="img/Alta.png" class="alta-icono"/>
             </xsl:if>
         </article>
     </xsl:template>
 
 
 </xsl:stylesheet>
+
 
