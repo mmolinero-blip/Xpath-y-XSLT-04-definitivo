@@ -9,7 +9,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link href="/css/estilo.css" rel="stylesheet" type="text/css"/>
+                <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
                 <meta charset="utf-8"/>
                 <title>Actividades</title>
             </head>
@@ -94,3 +94,4 @@
     
 
 </xsl:stylesheet>
+
