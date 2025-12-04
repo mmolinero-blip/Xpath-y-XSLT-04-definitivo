@@ -6,16 +6,16 @@
     <xsl:template match="/jardinBotanico">
         <html lang="es">
             <head>
-                <link href="/css/estilo.css" rel="stylesheet" type="text/css"/>
+                <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
                 <meta charset="utf-8"/>
                 <title>Zonas - Jardín Botánico</title>
             </head>
             <body>
                 <header>
-                    <img src="/img/logotipo.png" alt="Reservas"/>
-                    <a href="zonas.html">Zonas</a>
-                    <a href="plantas.html">Plantas</a>
-                    <a href="actividades.html">Actividades</a>
+                    <img src="img/logotipo.png" alt="Reservas"/>
+                    <a href="zonas.xml">Zonas</a>
+                    <a href="plantas.xml">Plantas</a>
+                    <a href="actividades.xml">Actividades</a>
                 </header>
 
                 <main id="jardinbotanico">
@@ -55,5 +55,6 @@
             </xsl:if>
         </article>
     </xsl:template>
+
 
 </xsl:stylesheet>
