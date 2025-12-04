@@ -17,9 +17,9 @@
             <body>
                 <header>
                     <img src="../img/logotipo.png" alt="Reservas"/>
-                    <a href="zonas.html">Zonas</a>
-                    <a href="plantas.html">Plantas</a>
-                    <a href="actividades.html">Actividades</a>
+                    <a href="zonas.xml">Zonas</a>
+                    <a href="plantas.xml">Plantas</a>
+                    <a href="actividades.xml">Actividades</a>
                 </header>
                 
                 <main>
@@ -94,4 +94,5 @@
     
 
 </xsl:stylesheet>
+
 
