@@ -35,7 +35,7 @@
     <xsl:template match="planta">
         <article class="articulo">
             <!-- Imagen de la planta -->
-            <img class="imagen" src="/img/{@foto}" alt="{nombreComun}"/>
+            <img class="imagen" src="img/{@foto}" alt="{nombreComun}"/>
 
             <!-- Nombre común con enlace a Wikipedia -->
             <h2>
@@ -58,3 +58,4 @@
 
 
 </xsl:stylesheet>
+
